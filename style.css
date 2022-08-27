@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.four-card-feature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+position: relative;
+}
+.text-info{
+    margin:  100px auto;
+    text-align: center;
+    margin-top: 3%;
+    
+    
+
+}
+
+.text-info h1{
+    
+
+    font-size: 1.9rem;
+    opacity: 0.3;
+  
+ 
+}
+
+.title{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+ .text-info p{
+    align-items: center;
+    justify-content: center;
+    width: 72%;
+    text-align: center;
+    display: flex;
+    padding-left: 20rem;
+    opacity: 0.3;
+    
+
+}
+
+.cards-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 450px;
+   margin-top: 5%;
+  
+}
+
+
+.card{
+    border-top: 4px solid hsl(180, 62%, 55%);
+    background-color: white;
+    height: 14rem;
+    width: 21rem;
+    box-shadow: 00px 00px 25px rgba(00, 00, 00, 0.2);
+    
+  
+}
+
+ h1{
+    padding: 20px;
+ font-size: 1.6rem;
+ font-weight: bold;
+ font-weight: 800px;
+
+ 
+}
+
+ p{
+    padding: 00px 20px 20px 20-px;
+    padding-left: 6%;
+    max-width: 85%;
+    opacity: 0.8;
+}
+
+
+
+.card1{
+    background-color: white;
+    height: 14rem;
+    width: 21rem;
+    box-shadow: 00px 00px 25px rgba(00, 00, 00, 0.2);
+    margin-left: -2%;
+    border-top: 4px solid hsl(212, 86%, 64%);
+
+}
+
+.card2{
+
+    background-color: white;
+    height: 14rem;
+    width: 21rem;
+    box-shadow: 00px 00px 25px rgba(00, 00, 00, 0.2);
+    position: absolute;
+    top: 32%;
+    left: 38%;
+    border-top: 4px solid red;
+}
+
+.card3{
+    background-color: white;
+    height: 14rem;
+    width: 21rem;
+    box-shadow: 00px 00px 25px rgba(00, 00, 00, 0.2);
+    position: absolute;
+    left: 38%;
+    margin-top: -7%;
+   
+    border-top: 4px solid hsl(34, 97%, 64%);    
+
+}
+
+
+
+.card img{
+    position: absolute;
+padding-left: 17%;
+padding-top: 2.8%;
+width: 20%;
+}
+
+.card1 img{
+    position: absolute;
+    padding-left: 17%;
+    padding-top: 2.8%;
+    width: 20%;
+
+}
+
+.card2 img{
+    position: absolute;
+    padding-left: 58%;
+   padding-top: 9.8%;
+    width: 241px;    
+    margin-left: 21%;
+    
+}.card3 img{
+    position: absolute;
+    padding-left: 58%;
+   padding-top: 9.8%;
+    width: 241px;    
+    margin-left: 21%;
+    
+}
+
+/* Responsive Design */
+
